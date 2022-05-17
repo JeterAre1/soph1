@@ -1,0 +1,17 @@
+body{
+  background-color: pink;
+}
+
+.fancy{
+  color:purple;
+  font-family: Courier New;
+  padding: 14px;
+}
+
+.column{
+  float: center;
+  width: 33.33%;
+  padding: 15px;
+  background: white;
+  border: 10px double;
+}

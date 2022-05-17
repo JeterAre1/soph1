@@ -1,0 +1,109 @@
+body{
+  background-color:#ea99b2;
+}
+
+.body1{
+  float: left 10px;
+  font-family: Courier New;
+  font-size: 50px;
+  text-align: center;
+  color: pink;
+  text-decoration: underline white 5px; 
+}
+
+.para{
+  font-size:30px;
+  font-family: Courier New;
+  float:left;
+  margin: 50px
+}
+
+.main{
+border: 5px double;
+border-color: pink;
+padding:5px;
+width: 50%;
+float: left;
+height:600px;
+}
+
+.image{
+  width: 500px;
+  height: 500px;
+  position: relative;
+  margin: 3px;
+}
+
+.main2{
+border: 5px double;
+border-color: pink;
+width: 50%;
+float: right;
+height: 600px;
+}
+
+.H1{
+  color:pink;
+  text-align: center;
+  text-family: Courier New;
+  font-size: 40px;
+  text-decoration: underline white 5px;  
+}
+
+.para2{
+  font-size:30px;
+  font-family: Courier New;
+  float:left;
+  margin: 50px;
+  color:pink;
+}
+
+.body2{
+  float: left 10px;
+  font-family: Courier New;
+  font-size: 50px;
+  text-align: center;
+  color: pink;
+  text-decoration: underline white 5px; 
+}
+
+.image2{
+  float:right;
+}
+
+.fullbox{
+  border: 5px double;
+  border-color: pink;
+  overflow:hidden;
+  width:1000px;
+}
+
+.friends{
+  font-family: Courier New;
+  font-size: 40px;
+  color: pink;
+  text-decoration: underline white 5px; 
+}
+
+.x{
+ font-size:30px;
+  font-family: Courier New;
+  float:left;
+  margin: 50px;
+  color:pink; 
+}
+
+/* you need to add a better border and make it more appealing to look at. 
+ put both boxes next to each other in the center with a magin to the left and right.*/
+
+/* add a button to go back to homepage and maybe labs */
+
+/* add a navigation bar to all your explainations of honesty in the box and under the heading titles "Project 2" */
+
+
+.image2{
+  width: 500px;
+  height: 500px;
+  position: relative;
+  margin: 350px;
+}

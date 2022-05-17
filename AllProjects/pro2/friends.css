@@ -1,0 +1,56 @@
+.heading{
+  color:pink;
+  text-align: center;
+  text-family: Courier New;
+  font-size: 40px;
+  text-decoration: underline white 5px;  
+}
+
+.box{
+  border: 5px double;
+border-color: pink;
+padding:5px;
+width: 40%;
+float: center;
+height:600px;
+  text-align: center;
+}
+
+.box2{
+  border: 5px double;
+border-color: pink;
+padding:5px;
+width: 40%;
+float: center;
+height:600px;
+  text-align: center;
+  margin-left: 250px;
+  
+  }
+
+.box3{
+  border: 5px double;
+border-color: pink;
+padding:5px;
+width: 40%;
+float: center;
+  width: 800px;
+height:1000px;
+  text-align: center;
+}
+
+.paragraph{
+  font-size:30px;
+  font-family: Courier New;
+  float:left;
+  margin: 50px;
+  color:pink;
+}
+
+.paragraph2{
+  font-size:30px;
+  font-family: Courier New;
+  float:left;
+  margin: 50px;
+  color:pink;
+}

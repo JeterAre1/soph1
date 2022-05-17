@@ -1,0 +1,22 @@
+<!--Doctype HTML-->
+<htlm> 
+	<head>
+		<title> Smart Goals </title>
+	</head>
+	<body>
+		<h1>Thomas A. Edison CTE HS</h1>   
+		<h2>Web Developer Academy</h2>
+		<h3>10th Grade</h3>
+		<h4> Lab 2 </h4>
+		<h5> Image tag and list </h5>
+		<h6> By Jeter Arevalo</h6>
+		<img src="me.jpg" width="100px">
+		<ul> My Smart Goals:
+			<li>  Goal 1 </li>
+			<li>  Goal 2 </li>
+			<li>  Goal 3 </li>
+
+		</ul>
+	</body>
+
+</htlm>

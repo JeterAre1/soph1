@@ -1,0 +1,58 @@
+.wow {
+  width: 100px;
+}
+
+.line{
+   border: 7px double;
+  border-color: black;
+  width: 100%;
+  float: center;
+}
+
+.line2{
+  border: 7px double;
+  border-color: black;
+  width: 100%;
+  float: center;
+}
+
+.line3{
+  border: 7px double;
+  border-color: black;
+  width: 100%;
+  float: center;
+}
+
+.topnav{
+  background-color:#1c55ff ;
+  overflow: hidden;
+  margin:5px;
+  border: 2px solid #e0f2ff;
+}
+.topnav a{
+  color:#e0f2ff;
+  float:left;
+  display:block;
+  text-align: center;
+  padding: 14px 16px;
+}
+.topnav a:hover{
+  background-color:#75dfed;
+  color:#1c55ff;
+}
+.p3{
+  background-color:#1c55ff;
+  color:#e0f2ff;
+}
+
+.font1{
+  font-family: Courier New;
+  font-size: 45px; 
+  color: #270aff;
+}
+
+.font2{
+  font-family: Courier New;
+  font-size: 38px; 
+  color: #270aff;
+}

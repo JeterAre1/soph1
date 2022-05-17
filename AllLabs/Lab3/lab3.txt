@@ -1,0 +1,17 @@
+<!--DocTypehtml-->
+	<html>
+	<head>
+		<base html document>
+	</head>
+	<body>
+		<h1> TAEHS </h1>
+		<h2> 9/21/21 </h2>
+		<h3> lab 3 </h3>
+		<h4> HYPERLINKS </h4>
+		<h5> by </h5>
+		<h6> Jeter Arevalo </h6>
+	<p> explain </p> 
+		<a href="http://www.taehs.org">Click here to visit my highschool</a>
+		<a href="http://www.taehs.org"><img src="taehs.jpg"  width="250px"></a>
+	</body>
+	</html>

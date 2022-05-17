@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="lb18.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="../../mainportfolio.css">
+  <style>
+    body{
+      background-image: url('sky.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+  </style>
+</head>
+
+<body> 
+  <div class="topnav">
+  <a href="https://webacademy-2021.johnokoroh.repl.co/">John's Portfolio</a>
+  <a href="https://web-academy-2021.jeterarevalo.repl.co/">Jeter's Portfolio</a>
+  <a href="https://webacademy-2021.johnokoroh.repl.co/">John's Projects</a>
+    <a href="https://web-academy-2021.jeterarevalo.repl.co/">Jeter's Projects</a>
+  <a href="john/johnbio.html">John's Biography</a>
+
+    <!-- She said to create a whole new page for the biography -->
+    <!-- . -->
+    
+    <a href="https://web-academy-2021.jeterarevalo.repl.co/AllLabs/lb18/bio.html">Jeter's Biography</a>
+  <a href="https://www.taehs.org/">TAEHS</a>
+  </div>
+  <center>
+
+    <!--add your images-->
+    <!--I'll add 3 and you add 3-->
+    
+  <div class="line">
+    <div class="font1">
+  <h1>Lab Rollovers By Name</h1>
+    </div>
+  </div>
+    <div class="line2">
+      <div class="font1">
+      <h2>HTML Hoverover</h2>
+      </div>
+      <br>
+      <img src="cat.jpg" width=200px height=200px
+        onmouseover="this.src='cat2.jpg';"
+        onmouseout="this.src='cat.jpg';"
+        >
+      <div class="font2">
+      <p>This hoverover is create with only html. When you hover over it, this image changes.</p>
+      </div>
+    </div>
+    <div class="line3">
+      <div class="font1">
+      <h3>JavaScript Rollover</h3>
+      </div>
+      <img src="house.jpg" width=200px height=200px name="r1"> 
+      <br>
+      <img src="1.jpg" width=100px height=100px onmouseover="document.r1.src=pic1.src;">
+      <img src="2.jpeg" width=100px height=100px onmouseover="document.r1.src=pic2.src;">
+      <img src="3.jpg" width=100px height=100px onmouseover="document.r1.src=pic3.src;">
+      <img src="4.jpg" width=100px height=100px onmouseover="document.r1.src=pic4.src;">
+      <img src="5.jpg" width=100px height=100px onmouseover="document.r1.src=pic5.src;">
+      <div class="font2">
+      <p>This is a rollover created with HTML and JavaScript. When you hover over the smaller images, that image you have your mouse on is the image that shows as the main image on the top.</p>
+      </div>
+    </div>
+    <div class="p3">
+    <p>Web Client Programming. By Author, Index.</p>
+    </div>
+    <script>
+
+      if(document.images){
+        pic1=new Image();
+        pic2=new Image();
+        pic3=new Image();
+        pic4=new Image();
+        pic5=new Image();
+        pic1.src='1.jpg';
+        pic2.src='2.jpeg';
+        pic3.src='3.jpg';
+        pic4.src='4.jpg';
+        pic5.src='5.jpg';
+      }
+
+      else{
+        pic1=pic2=pic3=pic4=pic5=document.r1="";
+      }
+
+    
+      
+    </script>
+</body>
+
+</html>

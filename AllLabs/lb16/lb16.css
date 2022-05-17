@@ -1,0 +1,144 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Helvetica", sabs-serif;
+}
+
+/* this is editing the body in the HTML file */
+body{
+  background-color: rgba(32,43,57,1);
+  height: 100vh;
+  width: 100vh;
+  display: block;
+  position: relative;
+}
+
+/* We have a div class in the HTML file and this is allowing use toedit the DIV class.  */
+.wrapper{
+  display: block;
+  background-color: #39516b;
+  width: 600px;
+  height; 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 4px;
+  outline: #202b39 solid, 7px;
+  outline-offset: -15px;
+  overflow: hidden;  
+}
+
+/* We have another div class called section userform so this allows us to edit antthing inside the div class while using CSS.  */
+.section_userform{
+  width:75%;
+  display: block;
+  margin: 0 auto;
+  color: #ffffff;
+}
+
+.input_label{
+  width: 35%;
+  test-align: right;
+  font-size: 1.5em;
+  color: rgba (178,330,238,1);
+}
+
+.break{
+  display: block;
+  width: 100%;
+  margin: 2em;
+}
+
+.textbox{
+  width: 50%;
+  height: 1.8em;
+  box-sizing: content-box;
+  background-color: rgba(41,56,74,1);
+  border-color:rgba(178,330,238,1);
+  padding-left: 1em;
+  color: #ffffff;
+}
+
+/* This is the button in the HTMl file.  We made a div class called button while the button is inside the HTMl file. */
+.button{
+  display: block;
+  margin: none;
+  padding: 0.5em 2.5em;
+  text-transform: uppercase;
+  background-color: rgba(178,330,238,1);
+  border-color: rgba(178,330,238,1);
+  font-size: 1.3em;
+  border-width: 3px;
+  border-radius: 10px;
+  border-style: solid;
+  padding-left: 1em;
+  color:white;
+}
+
+/* This allows us to change the button color when we hover over it. */
+.button:hover{
+  background-color:rgba(216,241,255,1);
+  color:rgba(178,330,238,1);
+  border-color: rgba(41,56,74,1);
+  transform:scale(1.05);
+}
+
+.buttonWrapper{
+  display:grid;
+  justify-content: center;
+}
+
+.section_info{
+  text-align:center;
+  margin:1em;
+  color:rgba(173,220,238,1);
+}
+
+.section_info h1{
+  font-size: 5em;
+}
+
+#line{
+  border-color: rgba(173,220,238,1);
+  width:80%;
+  margin-button: 4em;
+}
+
+.result{
+  width:45%;
+  text-align:left;
+  display:inline-block;
+  font-size:1.5em;
+  color:#ffffff;
+}
+
+.result_label{
+  width:20%;
+  text-align:right;
+  display:inline-block;
+  font-size:1.5em;
+  color:rgba(173,220,238,1);
+}
+
+#before{
+  opacity:1;
+  display:block;
+}
+
+#after{
+  display:none;
+  
+}
+
+#input_username_button:focus #after{ 
+  display:block;
+  opacity:1;
+}
+
+#input_username_button:focus #before{ 
+  display:hidden;
+  opacity:0;
+  position:absolute;
+  top:800px;
+}

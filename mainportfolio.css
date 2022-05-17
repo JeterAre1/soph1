@@ -1,0 +1,108 @@
+/* I think box sizing will create the menu whe are creating */
+/* Anything inside the curly bracket is called a RULE SET */
+*{
+  box-sizing: border-box;
+}
+/* Line 6 is the suppose to be a way we can customize the body in our HTML file */
+body{
+  background-image: url("a.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(7, 218, 204);
+}
+/* style of the header */
+.header{
+  
+}
+/* Add a better header */ 
+
+
+
+/* style to the navigation bar*/
+.topnav{
+  background-color: rgb(8, 247, 187);
+  overflow: hidden;
+}
+/* style the links inside the navigation bar */
+.topnav a{
+  color: rgb(29, 74, 94);
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+/* changes color when you hover over it */
+.topnav a:hover{
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+/*Creates 3 equal colums that float next to each other */
+/* class = .  Id = # */
+.column{
+  float: center;
+  width: 100%;
+  padding: 15px;
+  
+}
+
+.column{
+  background-size: 600px;
+  background-image: url(gal2.jpg);
+}
+
+.column{
+  border: 10px double rgb(52, 234, 188);
+  
+}
+
+.fon{
+  font-family: Garamond;
+  font-size: 45px;
+}
+
+.font{
+  font-family: Garamond;
+  font-size: 35px;
+}
+
+.column{
+  box-shadow: 20px 20px 10px rgb(37, 37, 37);
+}  
+
+.top{
+  color:#4ddbff;
+  text-align: center;
+  text-family: Garamond;
+  font-size: 35px;
+  width: 100%;
+  text-decoration: underline #000000 5px;  
+}
+
+.b{
+  border: 10px double;
+  width: 70%;
+border-color: #14ffd0;
+float: center;
+color: black;
+  background-image: url(gal2.jpg);
+}
+
+.b2{
+  border: 5px double;
+  width: 70%;
+border-color: #20f8b7;
+float: center;
+color: black;
+  background-image: url(gal2.jpg);
+}
+
+.b3{
+  border: 5px double;
+  width: 70%;
+border-color: #0fffcf;
+float: center;
+color: black;
+  background-image: url(gal2.jpg);
+}

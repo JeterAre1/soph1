@@ -1,0 +1,30 @@
+.h1{
+  color:#7ff0e8;
+  text-align: center;
+  text-family: Garamond;
+  font-size: 35px;
+  text-decoration: underline #ffffff 5px;  
+}
+
+#id{
+  background-color: pink;
+  padding: 100px;
+  border: 5px solid blue;
+  height: 50px;
+  width: 50px;
+  pasition: relative;
+}
+
+button{
+  background-color: red;
+  color: white;
+  border: 5px solid black;
+  border-radius: 10px;
+  width: 75px;
+  height: 35px;
+}
+
+button:hover{
+  background-color:lightgreen;
+  color:black;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><center>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Internal CSS</title>
+  <link rel="stylesheet" href="../../mainportfolio.css">
+  <style>
+    *{
+      box-sizing:border-box;
+    }
+    body{
+      background-repeat:no-repeat;
+    background-image:linear-gradient(to left,#00f,#100);
+     background-image:url("https://www.nawpic.com/media/2020/space-background-nawpic-15.jpg");
+     background-size:100%;
+     background-color:pink;
+     background-image: conic-gradient(pink,blue,green);
+    }
+    
+  .header{
+    background-image: repeating-radial-gradient(red: 15%, yellow 60%, green 25%);
+    text-align: center;
+    padding: 20px;
+    margin: 5px;
+    color:#000EFD; 
+  }
+  .topnav{
+   background-color:grey;
+   overflow:hidden;
+  }
+  /* this will affect all h1 html elements on the page because it is a tag selector */
+  h1{
+    color:white;
+  }
+  .box{
+    color:orange;
+    /* This one will affect only affect the html elements with the ID="ID" becaus it is a ID selector */
+  }
+   /* selector */
+  #ID h1{
+    color:purple;
+  }
+  </style>
+  </head>
+  <body>
+    <div class="topnav">
+  <a href="AllLabs/Lab1/lab1.html"> Lab#1 </a>
+  <a href="AllLabs/Lab2/lab2.html"> Lab#2 </a>
+  <a href="AllLabs/Lab3/lab3.html"> Lab#3 </a>
+  <a href="AllLabs/Lab4/lab4.html"> Lab#4 </a>
+  <a href="AllLabs/Lab5/Lab5.html">Lab#5</a>
+  <a href="AllLabs/Lab6/lab6.html">Lab#6</a>
+<a href="AllLabs/Lab7/lab7.html">Lab#7</a>
+<a href="AllLabs/Lab8/lab8.html">Lab#8</a>
+<a href="AllLabs/Lab9/lab9.html">Lab#9</a>
+<a href="AllLabs/lb10/lab10.html">Lab#10</a>
+<a href="AllLabs/lb11/lab11.html">Lab#11</a>
+<a href="AllLabs/lb12/lab12.html">Lab#12</a>
+<a href="AllLabs/lb13/lab13.html">Lab#13</a>
+<a href="AllLabs/lb14/lab14.html">Lab#14</a>
+<a href="AllLabs/lb15/lab15.html">Lab#15</a>
+<a href="AllLabs/lb16/lab16.html">Lab#16</a>
+<a href="AllLabs/lb17/lab17.html">Lab#17</a>
+<a href="AllLabs/lb18/lab18.html">Lab#18</a>
+<a href="AllLabs/lb19/lab19.html">Lab#19</a>
+<a href="AllLabs/lb20/lab20.html">Lab#20</a>
+
+  <a href="AllProjects/pro1/pro1.html">Project#1</a>
+  </div class="topnav">
+  <br>
+  <div class="header">
+<h1>TAEHS</h1>
+<h2>Web Design</h2>
+<h3>Lab 10</h3>
+<h4>Jeter Arevalo 2/9/22</h4>
+</div class='header'>
+<div class="#ID">
+<h1>Jeter</h1>
+<h1 class="box">Arevalo</h1>
+<h1>02/09/22</h1>
+  </div class="#ID">
+</body>
+</html>
